@@ -11,11 +11,6 @@ var board [3][3]string
 var scanner *bufio.Scanner = bufio.NewScanner(os.Stdin)
 
 func main() {
-	initBoard()
-	// place(0, 0, "X")
-	// place(1, 1, "X")
-	// place(2, 2, "X")
-
 	start()
 }
 
@@ -45,12 +40,13 @@ func checkWin() bool {
 }
 
 func start() {
+	initBoard()
 	for i := 0; i < 9; i++ {
-		readMove()
+		move()
 	}
 }
 
-func readMove() {
+func move() {
 	if scanner.Scan() {
 		in := scanner.Text()
 
@@ -59,6 +55,7 @@ func readMove() {
 		c, _ := strconv.Atoi(string(in[1]))
 		s := string(in[2])
 		place(r, c, s)
+		checkWin()
 	}
 }
 
@@ -85,8 +82,5 @@ func printBoard() {
 
 func place(r, c int, s string) {
 	board[r][c] = s
-
 	printBoard()
-
-	checkWin()
 }
