@@ -8,6 +8,7 @@ Send a bool over a channel to close a program | [complete.go](https://github.com
 Generate a random number | [rand.go](https://github.com/hoanhan101/godev/blob/master/rand.go)
 Valid palindrome | [palindrome.go](https://github.com/hoanhan101/godev/blob/master/palindrome.go)
 Count characters in a string | [count.go](https://github.com/hoanhan101/godev/blob/master/count.go)
+Minesweeper | [minesweeper.go](https://github.com/hoanhan101/godev/blob/master/minesweeper.go)
 Reverse a string | [revstring.go](https://github.com/hoanhan101/godev/blob/master/revstring.go)
 LRU cache | todo
 Gracefully exit a program | todo
