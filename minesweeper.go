@@ -47,10 +47,9 @@ func solve() {
 				for cc := c - 1; cc <= c+2; cc++ {
 					if (rr > 0 && rr < m) && (cc > 0 && cc < n) {
 						if board[rr][cc] == "*" {
-							solution[r][c] += 1
+							solution[r][c]++
 						}
 					}
-
 				}
 			}
 		}

@@ -8,7 +8,7 @@ import (
 )
 
 var board [3][3]string
-var scanner *bufio.Scanner = bufio.NewScanner(os.Stdin)
+var scanner = bufio.NewScanner(os.Stdin)
 
 func main() {
 	initBoard()
