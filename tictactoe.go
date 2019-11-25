@@ -1,7 +1,3 @@
-/*
-simple 3x3 tic tac toe for 2.
-*/
-
 package main
 
 import (

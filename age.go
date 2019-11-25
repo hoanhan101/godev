@@ -1,7 +1,3 @@
-/*
-read a person's graduation year from stdin and print out their age.
-*/
-
 package main
 
 import (
