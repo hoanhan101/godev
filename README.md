@@ -12,6 +12,7 @@ Minesweeper | [minesweeper.go](https://github.com/hoanhan101/godev/blob/master/m
 Reverse a string | [revstring.go](https://github.com/hoanhan101/godev/blob/master/revstring.go)
 LRU cache | todo
 Gracefully exit a program | todo
+Priority queue | todo
 
 **References**
 - https://www.interviewcake.com/concept/java/lru-cache
