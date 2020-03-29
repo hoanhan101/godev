@@ -10,6 +10,7 @@ Valid palindrome | [palindrome.go](https://github.com/hoanhan101/godev/blob/mast
 Count characters in a string | [count.go](https://github.com/hoanhan101/godev/blob/master/count.go)
 Minesweeper | [minesweeper.go](https://github.com/hoanhan101/godev/blob/master/minesweeper.go)
 Reverse a string | [revstring.go](https://github.com/hoanhan101/godev/blob/master/revstring.go)
+Caculate nth Fibonacci number using top-down and bottom-up approach | [fib.go](fib.go)
 LRU cache | todo
 Gracefully exit a program | todo
 Priority queue | todo
